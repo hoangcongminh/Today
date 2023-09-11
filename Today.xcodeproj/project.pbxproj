@@ -14,6 +14,13 @@
 		84883C062AAB2D8E006F6759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84883C052AAB2D8E006F6759 /* Assets.xcassets */; };
 		84883C092AAB2D8E006F6759 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84883C072AAB2D8E006F6759 /* LaunchScreen.storyboard */; };
 		84883C122AAB2EBD006F6759 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C112AAB2EBD006F6759 /* Reminder.swift */; };
+		84883C142AAEEC02006F6759 /* Date+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C132AAEEC02006F6759 /* Date+Today.swift */; };
+		84883C172AAEEE24006F6759 /* ReminderListViewController+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C162AAEEE24006F6759 /* ReminderListViewController+DataSource.swift */; };
+		84883C192AAEF093006F6759 /* UIColor+Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C182AAEF093006F6759 /* UIColor+Today.swift */; };
+		84883C1B2AAEFCAA006F6759 /* ReminderDoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C1A2AAEFCAA006F6759 /* ReminderDoneButton.swift */; };
+		84883C1D2AAEFD48006F6759 /* ReminderListViewController+Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C1C2AAEFD48006F6759 /* ReminderListViewController+Actions.swift */; };
+		84883C1F2AAF082C006F6759 /* ReminderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C1E2AAF082C006F6759 /* ReminderViewController.swift */; };
+		84883C222AAF1356006F6759 /* ReminderViewController+Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C212AAF1356006F6759 /* ReminderViewController+Row.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		84883C082AAB2D8E006F6759 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84883C0A2AAB2D8E006F6759 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84883C112AAB2EBD006F6759 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		84883C132AAEEC02006F6759 /* Date+Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Today.swift"; sourceTree = "<group>"; };
+		84883C162AAEEE24006F6759 /* ReminderListViewController+DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+DataSource.swift"; sourceTree = "<group>"; };
+		84883C182AAEF093006F6759 /* UIColor+Today.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Today.swift"; sourceTree = "<group>"; };
+		84883C1A2AAEFCAA006F6759 /* ReminderDoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderDoneButton.swift; sourceTree = "<group>"; };
+		84883C1C2AAEFD48006F6759 /* ReminderListViewController+Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderListViewController+Actions.swift"; sourceTree = "<group>"; };
+		84883C1E2AAF082C006F6759 /* ReminderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderViewController.swift; sourceTree = "<group>"; };
+		84883C212AAF1356006F6759 /* ReminderViewController+Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ReminderViewController+Row.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +76,11 @@
 				84883BFC2AAB2D8D006F6759 /* AppDelegate.swift */,
 				84883BFE2AAB2D8D006F6759 /* SceneDelegate.swift */,
 				84883C022AAB2D8D006F6759 /* Main.storyboard */,
-				84883C002AAB2D8D006F6759 /* ReminderListViewController.swift */,
+				84883C152AAEEE14006F6759 /* ListViewController */,
 				84883C052AAB2D8E006F6759 /* Assets.xcassets */,
 				84883C072AAB2D8E006F6759 /* LaunchScreen.storyboard */,
 				84883C0A2AAB2D8E006F6759 /* Info.plist */,
+				84883C202AAF1345006F6759 /* DetailViewController */,
 			);
 			path = Today;
 			sourceTree = "<group>";
@@ -74,8 +89,30 @@
 			isa = PBXGroup;
 			children = (
 				84883C112AAB2EBD006F6759 /* Reminder.swift */,
+				84883C132AAEEC02006F6759 /* Date+Today.swift */,
+				84883C182AAEF093006F6759 /* UIColor+Today.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		84883C152AAEEE14006F6759 /* ListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84883C002AAB2D8D006F6759 /* ReminderListViewController.swift */,
+				84883C162AAEEE24006F6759 /* ReminderListViewController+DataSource.swift */,
+				84883C1A2AAEFCAA006F6759 /* ReminderDoneButton.swift */,
+				84883C1C2AAEFD48006F6759 /* ReminderListViewController+Actions.swift */,
+			);
+			path = ListViewController;
+			sourceTree = "<group>";
+		};
+		84883C202AAF1345006F6759 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				84883C1E2AAF082C006F6759 /* ReminderViewController.swift */,
+				84883C212AAF1356006F6759 /* ReminderViewController+Row.swift */,
+			);
+			path = DetailViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,10 +186,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84883C192AAEF093006F6759 /* UIColor+Today.swift in Sources */,
+				84883C1D2AAEFD48006F6759 /* ReminderListViewController+Actions.swift in Sources */,
+				84883C1F2AAF082C006F6759 /* ReminderViewController.swift in Sources */,
 				84883C012AAB2D8D006F6759 /* ReminderListViewController.swift in Sources */,
+				84883C142AAEEC02006F6759 /* Date+Today.swift in Sources */,
+				84883C222AAF1356006F6759 /* ReminderViewController+Row.swift in Sources */,
+				84883C1B2AAEFCAA006F6759 /* ReminderDoneButton.swift in Sources */,
 				84883BFD2AAB2D8D006F6759 /* AppDelegate.swift in Sources */,
 				84883BFF2AAB2D8D006F6759 /* SceneDelegate.swift in Sources */,
 				84883C122AAB2EBD006F6759 /* Reminder.swift in Sources */,
+				84883C172AAEEE24006F6759 /* ReminderListViewController+DataSource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
