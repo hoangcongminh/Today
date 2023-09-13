@@ -28,6 +28,7 @@
 		84883C2D2AB04291006F6759 /* UIContentConfiguration+Stateless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C2C2AB04291006F6759 /* UIContentConfiguration+Stateless.swift */; };
 		84883C2F2AB04B9B006F6759 /* TextViewContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C2E2AB04B9B006F6759 /* TextViewContentView.swift */; };
 		84883C312AB04DDF006F6759 /* DatePickerContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C302AB04DDF006F6759 /* DatePickerContentView.swift */; };
+		84883C332AB074C0006F6759 /* ReminderListStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84883C322AB074C0006F6759 /* ReminderListStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		84883C2C2AB04291006F6759 /* UIContentConfiguration+Stateless.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIContentConfiguration+Stateless.swift"; sourceTree = "<group>"; };
 		84883C2E2AB04B9B006F6759 /* TextViewContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewContentView.swift; sourceTree = "<group>"; };
 		84883C302AB04DDF006F6759 /* DatePickerContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerContentView.swift; sourceTree = "<group>"; };
+		84883C322AB074C0006F6759 /* ReminderListStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				84883C112AAB2EBD006F6759 /* Reminder.swift */,
 				84883C132AAEEC02006F6759 /* Date+Today.swift */,
 				84883C182AAEF093006F6759 /* UIColor+Today.swift */,
+				84883C322AB074C0006F6759 /* ReminderListStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 				84883C192AAEF093006F6759 /* UIColor+Today.swift in Sources */,
 				84883C1D2AAEFD48006F6759 /* ReminderListViewController+Actions.swift in Sources */,
 				84883C1F2AAF082C006F6759 /* ReminderViewController.swift in Sources */,
+				84883C332AB074C0006F6759 /* ReminderListStyle.swift in Sources */,
 				84883C2D2AB04291006F6759 /* UIContentConfiguration+Stateless.swift in Sources */,
 				84883C012AAB2D8D006F6759 /* ReminderListViewController.swift in Sources */,
 				84883C142AAEEC02006F6759 /* Date+Today.swift in Sources */,
